@@ -1,6 +1,6 @@
 var createError = require('http-errors');
 var express = require('express');
-const port = process.env.PORT || 3001
+const port = process.env.PORT || 5000
 var path = require('path');
 var cookieParser = require('cookie-parser');
 // var logger = require('morgan');
@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, './client/build')));
 //   res.sendFile(path.join(__dirname, './client/build/index.html'));
 // });
 var corsOptions = {
-  origin: "localhost:3001"
+  origin: "localhost:5000"
 }; // Use this after the variable declaration
 app.use(cors(corsOptions));
 app.use('/', indexRouter);
