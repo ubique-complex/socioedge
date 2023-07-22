@@ -1,0 +1,138 @@
+#inner_page_content {
+    margin: 0px 0px 0px 0px;
+    padding: 10px 10px;
+    border: #0000FF solid 0px;
+}
+
+#inner_page_content h1 {
+    font-family: "Tahoma";
+    font-size: 19px;
+    font-weight: bold;
+    color: #121212;
+    margin: 15px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#inner_page_content p {
+    font-family: "Tahoma";
+    font-size: 13px;
+    color: black;
+    line-height: 18px;
+    margin-top: 8px;
+}
+
+#inner_page_content h2 {
+    font-family: "Tahoma";
+    font-size: 19px;
+    font-weight: bold;
+    color: #121212;
+    margin: 15px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+/* .price-list {
+    display: block;
+    /* background: url(../images/side-arrow.png) left 55px no-repeat; 
+}
+
+.price-list h5 {
+    margin: 5px 0 0 10px;
+}
+
+.price-list>p {
+    padding: 5px 5px 5px 0px;
+}
+
+.price-list .ele {
+    display: block;
+    clear: both;
+    overflow: hidden;
+    margin: 0 0 20px;
+}
+
+.price-list .ele>div {
+    padding: 15px 0 10px;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.price-list .ele div.head {
+    background-color: #2d8246;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    height: 90px;
+    position: relative;
+}
+
+.price-list .ele div:nth-child(odd) .head {
+    background-color: #49b368 !important;
+}
+
+/* .price-list .ele div:nth-child(odd) .head {
+    background-color: #49b368 !important;
+} 
+
+.price-list .ele>div .head h3 {
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.price-list .ele div.body {
+    border-left: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    border-right: 0;
+}
+
+.price-list .ele>div .body .price {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.price-list .ele>div .body div.row {
+    border-top: 1px solid #efefef !important;
+    font-size: 14px;
+    padding: 7px 0;
+    margin: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.red {
+    color: #c31616;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+.green {
+    color: #3abd31;
+    font-size: 18px;
+    margin-left: 74px;
+}
+
+.mark {
+    box-sizing: border-box;
+    height: 20px;
+    overflow: hidden;
+    width: 100px;
+}
+
+.price-list .ele>div .body div.row div {
+    box-sizing: border-box;
+    height: 20px;
+    overflow: hidden;
+    width: 187px;
+}
+
+.price-list .ele>div .body div.row .col-xs-12 {
+    padding: 10px 0;
+}
+
+*/

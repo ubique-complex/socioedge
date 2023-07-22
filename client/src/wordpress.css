@@ -1,0 +1,91 @@
+.container {
+    width: 88% !important;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.mobile-text h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mobile-text h2 span {
+    color: #121212;
+}
+
+.mobile-text p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.website-service-head {
+    font-weight: 600;
+    font-size: 20px;
+    color: #2d2d2d;
+    padding: 17px 0px 10px 0px;
+    margin: 0px;
+}
+
+.iconDiv {
+    width: 100px;
+    overflow: hidden;
+    border: 1px solid #dedede;
+    border-radius: 0 25px 0;
+    box-shadow: 0 0 50px #ccc;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.content_features {
+    padding-left: 15px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.content_features h4 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.mobile-text p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.right-web-services {
+    margin-left: 10px;
+}
+
+.right-web-services h4 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.right-web-services ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-web-services ul li {
+    list-style: none;
+    border-bottom: 1px dashed #ccc;
+    padding: 7px 0px;
+}
+
+.right-web-services ul li i {
+    margin-right: 8px;
+    font-size: 15px;
+    color: #067b29;
+}
+
+.right-web-services ul li a {
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}

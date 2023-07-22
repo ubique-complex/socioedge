@@ -1,0 +1,109 @@
+a i {
+    padding-right: 10px;
+}
+
+.container {
+    width: 88% !important;
+}
+
+.mobile-text h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mobile-text h2 span {
+    color: #121212;
+}
+
+.mobile-text p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.services_inn_bg {
+    background: #f5f5f5;
+    padding: 10px 15px 10px 15px;
+}
+
+.website-service-head {
+    font-weight: 600;
+    font-size: 20px;
+    color: #2d2d2d;
+    padding: 17px 0px 10px 0px;
+    margin: 0px;
+}
+
+.mobile-text p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.mobile_list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mobile_list li {
+    list-style: none;
+    font-size: 15px;
+    line-height: normal;
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.mobile_list i {
+    margin-right: 5px;
+    color: #121212;
+    margin-top: 4px;
+}
+
+.right-web-services {
+    margin-left: 10px;
+}
+
+.right-web-services h4 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.right-web-services ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-web-services ul li {
+    list-style: none;
+    border-bottom: 1px dashed #ccc;
+    padding: 7px 0px;
+}
+
+.right-web-services ul li i {
+    margin-right: 8px;
+    font-size: 15px;
+    color: #067b29;
+}
+
+.right-web-services ul li a {
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.right-web-services ul li a {
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+}

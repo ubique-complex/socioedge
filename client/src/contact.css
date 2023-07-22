@@ -1,0 +1,29 @@
+.imgs{
+    background:url(images/aami3-91-512.png)
+}
+label {
+    display: block;
+    font-weight: normal;
+}
+.contact-form2 .form-control {
+    border-radius: 0;
+    border: 1px solid #ccc;
+}
+.container {
+    width: 88% !important;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+@media (min-width: 992px){
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-8 {
+        width: 66.66666667%;
+    }
+}

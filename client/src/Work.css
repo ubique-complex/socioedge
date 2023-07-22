@@ -1,0 +1,22 @@
+/* .hovereffect p.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    color: #fff;
+    background-color: transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: scale(0);
+    transition: all 0.4s ease-in-out;
+    font-weight: normal;
+    margin: -10px;
+}
+.hovereffect {
+    width: 50%;
+    height: 50%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+} */

@@ -1,0 +1,92 @@
+.imag{
+    background: url(images/ecommer-bg.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.ineer_serv_textt {
+    margin-top: 10%;
+    margin-left: 20px;
+}
+.ineer_serv_textt h2 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 35px;
+    text-shadow: 0px 0px 10px #000;
+}
+.ineer_serv_textt p {
+    color: #fff;
+}
+h4, .h4 {
+    font-size: 20px;
+}
+@media (min-width: 768px){
+.col-sm-8 {
+    width: 66.66666667%;
+}
+.col-sm-4 {
+    width: 33.33333333%;
+}
+}
+.technical_form {
+    right: 0;
+    /* background: ; */
+    margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.technical_form h4 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0px;
+    background: #48b368;
+    border-radius: 6px 6px 0px 0px;
+    padding: 15px 0px;
+    text-align: center;
+}
+.iner-formm {
+    background: #f1f1f1;
+    padding: 15px 20px;
+}
+.iner-formm .form-group {
+    margin-bottom: 10px;
+}
+.iner-formm input.form-control {
+    min-height: 37px;
+    font-size: 14px;
+}
+.technical_form .form-control {
+    height: 30px;
+    border: 1px solid #CCC;
+    border-radius: 0px;
+}
+input.form-control {
+    min-height: 40px;
+    font-size: 16px;
+    box-shadow: none;
+}
+.iner-formm .btn-info {
+    width: 100%;
+    background: #48b368;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 11px;
+    text-align: center;
+    border: none;
+}
+.desc{
+    width:100%;
+    height:70px;
+}

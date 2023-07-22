@@ -1,0 +1,132 @@
+.imges {
+    background: url(images/graphic.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg_none {
+    background: none;
+}
+
+.container {
+    width: 88% !important;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.top_text h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+}
+
+.top_text h2 span {
+    color: #121212;
+    font-weight: 800;
+}
+
+.mobile-text h2 {
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mobile-text h2 span {
+    color: #121212;
+}
+
+.mobile-text p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.services_inn_bg {
+    background: #f5f5f5;
+    padding: 10px 15px 10px 15px;
+}
+
+.website-service-head {
+    font-weight: 600;
+    font-size: 20px;
+    color: #2d2d2d;
+    padding: 17px 0px 10px 0px;
+    margin: 0px;
+}
+
+.mobile_list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mobile_list li {
+    list-style: none;
+    font-size: 15px;
+    line-height: normal;
+    display: flex;
+    margin-bottom: 6px;
+}
+
+.mobile_list i {
+    margin-right: 5px;
+    color: #121212;
+    margin-top: 4px;
+}
+
+.newwgraphic {
+    background: #f6f8fa;
+    padding: 40px 0px;
+}
+
+.newwgraphic h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.newwgraphic h2 span {
+    color: #121212;
+    font-weight: 600;
+}
+
+.newwgraphic p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.per_cust {
+    text-align: center;
+}
+
+.per_cust h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.per_cust p {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-4 {
+        width: 33.33333333%;
+    }
+}
