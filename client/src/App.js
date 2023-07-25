@@ -5,7 +5,7 @@ import { About } from './About';
 import { NavBar } from './NavBar';
 import { FooTer } from './FooTer';
 import { Packages } from './Packages';
-import { Work } from './Work';
+// import { Work } from './Work';
 
 import {
   BrowserRouter as Router,
@@ -47,10 +47,10 @@ import { PrivacyPolicy } from './PrivacyPolicy';
 import DigitalMarket from './DigitalMarket';
 import Services from './Services';
 
-import Gdw from './GraphicDesignWork';
-import Wddw from './WebdesignanddevelopmentWork';
-import Dmw from './DigitalmarketingWork';
-import Bw from './BrandingWork';
+// import Gdw from './GraphicDesignWork';
+// import Wddw from './WebdesignanddevelopmentWork';
+// import Dmw from './DigitalmarketingWork';
+// import Bw from './BrandingWork';
 function App() {
   return (
     <>
@@ -61,7 +61,7 @@ function App() {
           <Route exact path="/who-we-are" element={<About />} />
           <Route exact path="/price-packages" element={<Packages />} />
           <Route exact path="/services" element={<Services />} />
-          <Route exact path="/work" element={<Work />} />
+          {/* <Route exact path="/work" element={<Work />} /> */}
 
           <Route exact path="/contact" element={<Contact />} />
 
@@ -131,10 +131,10 @@ function App() {
             <WebDesignServices />
           </Route> */}
 
-          <Route exact path="/website-design-and-development-work" element={<Wddw />} />
+          {/* <Route exact path="/website-design-and-development-work" element={<Wddw />} />
           <Route exact path="/digital-marketing-work" element={<Dmw />} />
           <Route exact path="/branding-work" element={<Bw />} />
-          <Route exact path="/graphic-design-work" element={<Gdw />} />
+          <Route exact path="/graphic-design-work" element={<Gdw />} /> */}
 
         </Routes>
         <FooTer />

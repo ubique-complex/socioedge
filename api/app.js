@@ -26,7 +26,11 @@ app.use(express.static(path.join(__dirname, './client/build')));
 //   res.sendFile(path.join(__dirname, './client/build/index.html'));
 // });
 var corsOptions = {
-  origin: "localhost:5000"
+  origin: "http://localhost:3000",
+  // Access-Control-Allow-Origin: http://localhost:3000,
+  // Access-Control-Allow-Origin:*
+  // credentials:true,            //access-control-allow-credentials:true
+  // optionSuccessStatus:200
 }; // Use this after the variable declaration
 app.use(cors(corsOptions));
 app.use('/', indexRouter);

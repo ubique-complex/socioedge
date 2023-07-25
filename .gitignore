@@ -1,10 +1,6 @@
-package.json
-package-lock.json
-.api/package-lock.json
 .api/node_modules
 .client/node_modules
 .client/build
 .client/public/stylesheets
-.client/package-lock.json
 node_modules
 clients

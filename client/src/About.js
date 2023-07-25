@@ -100,7 +100,7 @@ export const About = () => {
 							<div className="overlay">
 								<h2>View All Services</h2>
 								<p className="info">As we belong to the I.T industry, we offer a diverse range of web services to make your Online presence effective across India and outside the country.</p>
-								<Link href="/services" className="portfolio_button">Read More</Link>
+								<Link to="/services" className="portfolio_button">Read More</Link>
 							</div>
 						</div>
 					</div>

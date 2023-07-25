@@ -35,7 +35,11 @@ const Contact = () => {
         event.preventDefault();
         axios({
             method: "POST",
-            url: "/send",
+            headers: {
+                "Content-type": "application/json",
+                "Access-Control-Allow-Origin": true
+            },
+            url: "http://localhost:5000/send",
             data: state
         }).then((res) => {
             console.log(res);

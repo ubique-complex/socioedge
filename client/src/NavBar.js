@@ -32,9 +32,9 @@ export const NavBar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/who-we-are">Who We Are</Link>
                             </li>
-                            <li className="nav-item">
+                            {/* <li className="nav-item">
                                 <Link className="nav-link" to="/work">Work</Link>
-                            </li>
+                            </li> */}
                             <li className="nav-item">
                                 <Link className="nav-link " to="/website-design-services">
                                     Web Solution

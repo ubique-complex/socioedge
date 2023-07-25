@@ -54,13 +54,13 @@ class Services extends Component {
                                         <li><Link to="/hotel-website-design-services" onclick="fn()">Hotel Website Design Services</Link></li>
                                         <li><Link to="/php-website-development-services" onclick="fn()">PHP Website Development Services</Link></li>
                                         <li><Link to="/wordpress-website-development-services" onclick="fn()">Wordpress Web Development Services</Link></li>
-                                        <li><Link to="/drupal-website-development-services" onclick="fn()">Drupal Website Development Services</Link></li>
+                                        {/* <li><Link to="/drupal-website-development-services" onclick="fn()">Drupal Website Development Services</Link></li> */}
                                         <li><Link to="/graphic-design-services" onclick="fn()">Graphic Designing Services</Link></li>
                                         <li><Link to="/logo-design-services" onclick="fn()">Logo Designing Services</Link></li>
-                                        <li><Link to="/mobile-application-development-services" onclick="fn()">Mobile App Development</Link></li>
-                                        <li><Link to="/android-application-development-services" onclick="fn()">Android Apps Development</Link></li>
-                                        <li><Link to="/ios-application-development-services" onclick="fn()">iOS/iPhone Apps Development</Link></li>
-                                        <li><Link to="/custom-software-development-services" onclick="fn()">Custom Software Development</Link></li>
+                                        {/* <li><Link to="/mobile-application-development-services" onclick="fn()">Mobile App Development</Link></li> */}
+                                        {/* <li><Link to="/android-application-development-services" onclick="fn()">Android Apps Development</Link></li> */}
+                                        {/* <li><Link to="/ios-application-development-services" onclick="fn()">iOS/iPhone Apps Development</Link></li> */}
+                                        {/* <li><Link to="/custom-software-development-services" onclick="fn()">Custom Software Development</Link></li> */}
                                         <li><Link to="/digital-marketing-services" onclick="fn()">Digital Marketing Services</Link></li>
                                         <li><Link to="/seo-services" onclick="fn()">SEO Services</Link></li>
                                         <li><Link to="/sem-marketing-services" onclick="fn()">SEM Services</Link></li>

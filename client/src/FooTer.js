@@ -92,9 +92,9 @@ export const FooTer = () => {
                 <h6 className="text-uppercase fw-bold mb-4">
                   Useful links
                 </h6>
-                <p>
+                {/* <p>
                   <Link to="/work" className="text-reset">Work</Link>
-                </p>
+                </p> */}
                 <p>
                   <Link to="/price-packages" className="text-reset">Packages</Link>
                 </p>

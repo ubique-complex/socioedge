@@ -23,7 +23,11 @@ const WebDev = () => {
 		event.preventDefault();
 		axios({
 			method: "POST",
-			url: "/send",
+			headers: {
+                "Content-type": "application/json",
+                "Access-Control-Allow-Origin": true
+            },
+            url: "http://localhost:5000/send",
 			data: state
 		}).then(res => {
 			console.log(res.state);
@@ -196,7 +200,7 @@ const WebDev = () => {
 										<li><i className="fa fa-angle-right"></i><Link to="/wordpress-website-development-services">WordPress Website Development</Link></li>
 										<li><i className="fa fa-angle-right"></i><Link to="/ecommerce-website-development-services">E-Commerce Website Development</Link></li>
 										{/* <li><i className="fa fa-angle-right"></i><Link to="/opencart-website-development-services">Opencart Website Development</Link></li> */}
-										<li><i className="fa fa-angle-right"></i><Link to="/magento-website-development-services">Magento Website Development</Link></li>
+										{/* <li><i className="fa fa-angle-right"></i><Link to="/magento-website-development-services">Magento Website Development</Link></li> */}
 										{/* <li><i className="fa fa-angle-right"></i><Link to="/drupal-website-development-services">Drupal Website Development</Link></li> */}
 									</ul><br />
 								</div>
@@ -221,7 +225,7 @@ const WebDev = () => {
 						<div className="col-sm-12">
 							<h2>HIRE <span>DEVELOPERS</span></h2>
 							<p>Hire a team of experienced and full-time resource from Socio Edge. Our developers finish their work on time without compromising with the quality. Keep away your concerns by hiring us!</p>
-							<div align="center"><Link to="contact-us.php" className="portfolio_button">Enquiry Now</Link></div>
+							<div align="center"><Link to="/contact" className="portfolio_button">Enquiry Now</Link></div>
 						</div>
 					</div>
 				</div>
